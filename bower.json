@@ -1,0 +1,21 @@
+{
+  "name": "myproject",
+  "description": "My First Gulp Project",
+  "main": "index.js",
+  "authors": [
+    "Vladim"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/vladimir1234567/panakeya",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "magnific-popup": "^1.1.0"
+  }
+}
