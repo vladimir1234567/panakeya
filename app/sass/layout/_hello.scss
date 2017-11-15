@@ -2,10 +2,20 @@
   padding-top: 100px;
 }
 .hello {
+  position: relative;
   background: url("../img/hello-bg.jpg") 50% 0 no-repeat;
-  background-size: cover
-;
+  background-size: cover;
   padding-top: 400px;
+  padding-bottom: 90px;
+  &:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
+ }
 }
 .jumbotron {
   background: none;
@@ -15,23 +25,36 @@
     font-weight: 300;
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
   }
   .lead {
-
     font-size: 30px;
     line-height: 48px;
     font-weight: 700;
     text-align: center;
   }
 }
-.food-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  img {
-    margin: auto;
-  }
-  .food-descript {
-    text-align: center;
+.food-list {
+  margin-bottom: 105px;
+  padding-left: 0;
+  list-style: none;
+
+  .food-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      margin-bottom: 40px;
+    }
+    .descript  {
+      padding: 0 15px;
+      text-align: center;
+      font-family: $Roboto-short;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 30px;
+    }
   }
 }
+

@@ -22,6 +22,10 @@ body {
         line-height: 24px;
         border-radius: 25px;
         padding: 12px 15px;
+        &:hover {
+          background: $orange-color;
+          color: $white-color;
+        }
       }
     }
   }
