@@ -1,0 +1,37 @@
+.wrap {
+  padding-top: 100px;
+}
+.hello {
+  background: url("../img/hello-bg.jpg") 50% 0 no-repeat;
+  background-size: cover
+;
+  padding-top: 400px;
+}
+.jumbotron {
+  background: none;
+  .display-3 {  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    font-size: 72px;
+    line-height: 48px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .lead {
+
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+.food-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    margin: auto;
+  }
+  .food-descript {
+    text-align: center;
+  }
+}

@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', 'Georgia' serif;
+  //font-family: 'Roboto', 'Arial', sans-serif;
+}
+.container {
+  width: 1200px;
+  left: 0;
+  right: 0;
+}
+.main-header {
+  z-index: 1;
+  .container {
+    align-items: center;
+    padding: 40px 0;
+    .nav-item {
+      .nav-link {
+        font-family: $Roboto-s;
+        color: $dark-color;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        border-radius: 25px;
+        padding: 12px 15px;
+      }
+    }
+  }
+}
