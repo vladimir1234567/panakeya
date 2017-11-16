@@ -13,4 +13,16 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  border: none;
+  outline: none;
 }
+.btn-md {
+  padding: 10px 20px;
+  color: #4e5159;
+  font-family: $Roboto-short;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  border-radius: 27px;
+  background-color: $white-color;
+ }
