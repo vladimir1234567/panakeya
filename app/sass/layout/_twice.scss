@@ -1,0 +1,42 @@
+.twice {
+  padding: 70px 0;
+  background: #ffffff;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    .once {
+      .h3-title {
+        padding-top: 20px;
+        padding-left: 40px;
+        margin-bottom: 25px;
+      }
+      .descript {
+        margin-bottom: 50px;
+        padding-left: 45px;
+      }
+      button {
+        margin-bottom: 110px;
+      }
+
+      .once-image {
+        height: 410px;
+        border: 1px solid #dbdbdb;
+        margin-bottom: 0;
+      }
+    }
+    .once-right {
+      .h3-title {
+        padding-left: 0;
+      }
+      .descript {
+        padding-left: 0;
+      }
+      .once-image {
+        margin-bottom: 110px;
+      }
+      .bg-info {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

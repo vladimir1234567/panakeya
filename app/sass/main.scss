@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
 
 @import "base/variables";
+@import "base/mixins";
 @import "base/my-reset";
 @import "base/scrollspy-style";
 @import "base/btn";
 @import "layout/header";
 @import "layout/hello";
 @import "layout/our-news";
+@import "layout/newsletter";
+@import "layout/twice";

@@ -1,0 +1,51 @@
+.newsletter {
+  padding: 50px 0;
+
+  background: url("../img/burger-bg.jpg") 0px 100% no-repeat;
+  background-size: cover;
+  .wrap-letter {
+    width: 590px;
+    .descript {
+      line-height: 25px;
+      margin-bottom: 40px;
+    }
+    .your-contact {
+      width: 520px;
+      margin: 0 auto;
+      position: relative;
+      border: 1px solid $white-color;
+      border-radius: 28px;
+
+
+      input {
+        position: relative;
+        z-index: 1;
+        background: transparent;
+        width: 360px;
+        height: 50px;
+        /* Style for "email adre" */
+        color: #f3f4f6;
+        font-family: $Roboto-s;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 54px;
+        padding-left: 30px;
+        padding-right: 58px;
+        border: none;
+        @include placeholder {
+          color: $white-color;
+          outline: 0;
+        }
+
+      }
+      .submit-sign {
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 0;
+
+      }
+    }
+  }
+}
