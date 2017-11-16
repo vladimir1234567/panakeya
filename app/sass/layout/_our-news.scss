@@ -1,4 +1,5 @@
 .our-news {
+  height: 100wh;
   padding: 80px;
   background: #edeff1;
   .news-list {
@@ -12,6 +13,9 @@
         margin-bottom: 40px;
       }
       .news-title {
+      }
+      .news-descript {
+        margin-bottom: 40px;
       }
     }
   }

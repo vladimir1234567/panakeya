@@ -1,0 +1,16 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background: $orange-color;
+  color: $white-color;
+}
+a {
+  color: $dark-color;
+}
+//before the closing tag body:
+//
+//<script>
+// $(function() {
+//  $('body').scrollspy({
+//  target: '#scroll-effect'
+//  });
+//});
+//</script>
