@@ -17,12 +17,7 @@ body {
     .nav-item {
       .nav-link {
         font-family: $Roboto-s;
-        //color: $dark-color;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 24px;
         border-radius: 25px;
-        padding: 12px 15px;
         &:hover {
           background: $orange-color;
           color: $white-color;
