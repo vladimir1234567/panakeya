@@ -1,7 +1,7 @@
 .newsletter {
   padding: 50px 0;
 
-  background: url("../img/burger-bg.jpg") 0px 100% no-repeat;
+  background: url("../img/burger-bg.jpg") -5px 100% no-repeat;
   background-size: cover;
   .wrap-letter {
     width: 590px;
@@ -22,7 +22,7 @@
         z-index: 1;
         background: transparent;
         width: 360px;
-        height: 50px;
+        height: 49px;
         /* Style for "email adre" */
         color: #f3f4f6;
         font-family: $Roboto-s;
